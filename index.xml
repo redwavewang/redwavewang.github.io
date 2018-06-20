@@ -17,9 +17,7 @@
       <pubDate>Wed, 20 Jun 2018 16:25:34 +0800</pubDate>
       
       <guid>https://redwavewang.github.io/post/gpurth/</guid>
-      <description> 这是一句话 这是另一句话
-二级标题 呵呵哈哈哈
-你以为呢 斜体强调 粗体强调
+      <description>你看到的是这一篇的摘要 呵呵哈哈哈 你以为呢 斜体强调 粗体强调
 这是一段
 这是另外一段
 ###超链接
@@ -44,15 +42,6 @@
       
       <guid>https://redwavewang.github.io/post/first/</guid>
       <description>礼瞬至说没有内容。 今晚两点有西班牙的比赛。简单一点挺好，不搞花里胡哨的东西。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://redwavewang.github.io/post/third/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://redwavewang.github.io/post/third/</guid>
-      <description>这是一句话 这是另一句话</description>
     </item>
     
   </channel>
