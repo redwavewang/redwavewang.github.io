@@ -6,10 +6,27 @@
     <description>Recent content in Posts on 王鸿波的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 14:26:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 16:25:34 +0800</lastBuildDate>
     
 	<atom:link href="https://redwavewang.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gpurth</title>
+      <link>https://redwavewang.github.io/post/gpurth/</link>
+      <pubDate>Wed, 20 Jun 2018 16:25:34 +0800</pubDate>
+      
+      <guid>https://redwavewang.github.io/post/gpurth/</guid>
+      <description> 这是一句话 这是另一句话
+二级标题 呵呵哈哈哈
+你以为呢 斜体强调 粗体强调
+这是一段
+这是另外一段
+##超链接
+1 google
+2 Google
+图片 </description>
+    </item>
     
     <item>
       <title>This module is used to write about Matlab.</title>
@@ -27,6 +44,15 @@
       
       <guid>https://redwavewang.github.io/post/first/</guid>
       <description>礼瞬至说没有内容。 今晚两点有西班牙的比赛。简单一点挺好，不搞花里胡哨的东西。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://redwavewang.github.io/post/third/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://redwavewang.github.io/post/third/</guid>
+      <description>这是一句话 这是另一句话</description>
     </item>
     
   </channel>
