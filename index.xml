@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>redwavewang</title>
+    <title>王鸿波的个人博客</title>
     <link>https://redwavewang.github.io/</link>
-    <description>Recent content on redwavewang</description>
+    <description>Recent content on 王鸿波的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jun 2018 12:58:40 +0800</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>First</title>
+      <title>第一篇写啥呢？</title>
       <link>https://redwavewang.github.io/post/first/</link>
       <pubDate>Wed, 20 Jun 2018 12:58:40 +0800</pubDate>
       
       <guid>https://redwavewang.github.io/post/first/</guid>
-      <description> 一级标题 二级标题哈哈 三级标题 </description>
+      <description> 礼瞬至说没有内容 二级标题哈哈 三级标题 </description>
     </item>
     
   </channel>
