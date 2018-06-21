@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://redwavewang.github.io/sitemap.xml
