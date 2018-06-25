@@ -78,7 +78,7 @@
 
 <meta itemprop="datePublished" content="2018-06-22T23:06:22&#43;08:00" />
 <meta itemprop="dateModified" content="2018-06-22T23:06:22&#43;08:00" />
-<meta itemprop="wordCount" content="570">
+<meta itemprop="wordCount" content="743">
 
 
 
@@ -172,6 +172,7 @@
 <li><a href="#梯度和散度">梯度和散度</a></li>
 <li><a href="#应力">应力</a></li>
 <li><a href="#地震矩张量">地震矩张量</a></li>
+<li><a href="#震源球">震源球</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -207,6 +208,12 @@
 <p>要求矩震级，先求出scalar moment，矩张量的scalar moment不会随矩张量的变换（如对角化处理）而改变，然后根据公式求出矩震级。</p>
 
 <p>要求DC，先做对角化处理，再分解成Isotropic和Deviatoric两部分，然后对Deviatoric部分进行分解。分解的方法一般有两种，一种是分解成两个DC，另一种是分解成一个DC和一个CLVD。如果想要得到一个best DC，在分解前要按照对角线元素绝对值从大到小的顺序重新排列Deviatoric部分。</p>
+
+<h2 id="震源球">震源球</h2>
+
+<p>阴影区代表压缩象限，这里的压缩是指台站附近物质被压向地表，所以起跳是向上的，在震源处表现为最大拉应力，即最小压应力，标注为T。同样地，空白区代表拉张象限，指台站附近物质被拉向震源，所以起跳是向下的，在震源处表现为最大压应力，标注为P。
+<img src="/media/P and T.png" alt="1" title="dilatation and compression" />
+首先说明一下断层走向的定义，即沿着断层走向看，上盘位于观测者的右手边。如果震源球的中间是阴影区，代表逆断层</p>
     </div>
 
     
@@ -258,7 +265,7 @@
       <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
       <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
       <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
-      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="https://github.com/redwavewang/redwavewang.github.io" class="iconfont icon-github" title="github"></a>
       <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
       <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
       <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
