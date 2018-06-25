@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>分类 - whb</title>
+  <title>定量地震学复习笔记 - whb</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="whb" />
-  <meta name="description" content="Hugo theme even example site." />
+<meta name="author" content="王鸿波" />
+  <meta name="description" content="回顾定量地震学课程的一些基础内容。 " />
+
   <meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,9 +29,7 @@
 <meta name="generator" content="Hugo 0.42.1" />
 
 
-<link rel="canonical" href="https://redwavewang.github.io/categories/" />
-<link href="https://redwavewang.github.io/categories/index.xml" rel="alternate" type="application/rss+xml" title="whb" />
-  <link href="https://redwavewang.github.io/categories/index.xml" rel="feed" type="application/rss+xml" title="whb" />
+<link rel="canonical" href="https://redwavewang.github.io/post/quantitative-seismology/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -50,10 +49,17 @@
 
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="Hugo theme even example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://redwavewang.github.io/categories/" />
+<meta property="og:title" content="定量地震学复习笔记" />
+<meta property="og:description" content="回顾定量地震学课程的一些基础内容。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://redwavewang.github.io/post/quantitative-seismology/" />
+
+
+
+<meta property="article:published_time" content="2018-06-22T23:06:22&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-06-22T23:06:22&#43;08:00"/>
 
 
 
@@ -65,15 +71,22 @@
 
 
 
+<meta itemprop="name" content="定量地震学复习笔记">
+<meta itemprop="description" content="回顾定量地震学课程的一些基础内容。
+">
+
+
+<meta itemprop="datePublished" content="2018-06-22T23:06:22&#43;08:00" />
+<meta itemprop="dateModified" content="2018-06-22T23:06:22&#43;08:00" />
+<meta itemprop="wordCount" content="570">
 
 
 
-<meta itemprop="name" content="Categories">
-<meta itemprop="description" content="Hugo theme even example site.">
-
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Hugo theme even example site."/>
+<meta name="twitter:title" content="定量地震学复习笔记"/>
+<meta name="twitter:description" content="回顾定量地震学课程的一些基础内容。
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -133,22 +146,106 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  
-    <div class="categories">
-      <div class="categories-title">
-        
-          暂无分类
-        
-      </div>
-      <div class="categories-tags">
-        
-      </div>
-    </div>
-  
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">定量地震学复习笔记</h1>
 
+      <div class="post-meta">
+        <span class="post-time"> 2018-06-22 </span>
+        
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#梯度和散度">梯度和散度</a></li>
+<li><a href="#应力">应力</a></li>
+<li><a href="#地震矩张量">地震矩张量</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>回顾定量地震学课程的一些基础内容。
+</p>
+
+<h2 id="梯度和散度">梯度和散度</h2>
+
+<p>对一个张量求梯度会增加其阶数，求散度会降低其阶数。</p>
+
+<h2 id="应力">应力</h2>
+
+<p>在求出三个主应力及其方向后，要先把三个值按照从数值从大到小排好，然后进行下一步操作。压应力一般是负数，拉应力一般是正数，所以，数值最小的是最大压应力（即最小拉应力），数值最大的是最大拉应力（即最小压应力）。</p>
+
+<p>最大剪应力是最大主应力和最小主应力之差的二分之一，方向有两个，这两个主应力方向相加以及相减（前提是这两个主应力方向都归一化）。</p>
+
+<p>1bar=一个大气压=10^5 Pa=</p>
+
+<p>应变张量的trace大于零会使体积增大，trace不等于零的应变张量会产生P波，trace等于零的应变张量会产生S波。</p>
+
+<h2 id="地震矩张量">地震矩张量</h2>
+
+<p>在给出一个地震矩张量后，一般可以做两件事情，一个是求出它的震级，另一个是分解该矩震级，求出DC。</p>
+
+<p>要求矩震级，先求出scalar moment，矩张量的scalar moment不会随矩张量的变换（如对角化处理）而改变，然后根据公式求出矩震级。</p>
+
+<p>要求DC，先做对角化处理，再分解成Isotropic和Deviatoric两部分，然后对Deviatoric部分进行分解。分解的方法一般有两种，一种是分解成两个DC，另一种是分解成一个DC和一个CLVD。如果想要得到一个best DC，在分解前要按照对角线元素绝对值从大到小的顺序重新排列Deviatoric部分。</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">王鸿波</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018-06-22</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/gpurth/">
+            <span class="next-text nav-default">Gpurth</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
+  
+
+  
 
       </div>
     </main>
